@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+h1 i {
+  margin: 0 30px;
+  transform: rotate(10deg);
+  color: rgba(165, 42, 42, 0.8);
+}
+
+.btn {
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.btn button {
+  border: #4ecca3 1px solid;
+  color: #4ecca3;
+}
+.btn button:hover {
+  background-color: #4ecca3;
+  color: #393e46;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+@media screen and (max-width: 595px) {
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin: 30px 0;
+  }
+  .fas {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .container {
+    width: 85%;
+    margin: 150px auto;
+  }
+}
